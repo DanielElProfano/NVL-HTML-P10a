@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Utilización de tablas</title>
+		
+	</head>
+	<H1>CUESTIONARIO VEHICULO</H1>
+	<body>
+<form method="post" action="miservidor.php">
+    <div>
+      <label for="CP">Código Postal:</label>
+      <input id="CP" type="text">
+	  
+    </div>
+	<br>
+    <div>
+      <label for="email">Email:</label>
+      <input id="email" type="text">
+    </div>
+	<br>
+    <div>
+      <label for="satisfacción">Nivel de satisfacción:</label>
+      <select id="satisfacción">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+      </select>
+   
+      
+  </div>
+  <br>
+  <div>
+      <label for="sexo">Sexo:</label>
+      <input type="radio" name="sexo" value="F">Femenino
+	  <input type="radio" name="sexo" value="M">Masculino
+  
+	
+  </div>
+  <br>
+  
+  <div>
+    <label for="comentarioPositivo">¿Qué es lo que más le ha gustado?:</label>
+    <textarea id="comentarioPositivo"></textarea>
+  </div>
+  <br>
+   <div>
+    <label for="comentarioNegativo">¿Qué es lo que menos le ha gustado?:</label>
+    <textarea id="comentarioNegativo"></textarea>
+  </div>
+  
+  <div>
+  
+	<h3>Puntue los siguientes aspectos:</h3>
+	
+	<h4>Primera solución</h4>
+      <label for="hermanos">Interior:</label>
+      <select id="hermanos">
+        <option value="1">Excelente</option>
+        <option value="2">Bueno</option>
+        <option value="3">Regular</option>
+        <option value="4">Pésimo</option>
+      
+      </select>
+	    <label for="hermanos">Comodidad:</label>
+      <select id="hermanos">
+        <option value="1">Excelente</option>
+        <option value="2">Bueno</option>
+        <option value="3">Regular</option>
+        <option value="4">Pésimo</option>
+      
+      </select>
+	
+	    <label for="hermanos">Comportamiento en carretera:</label>
+      <select id="hermanos">
+        <option value="1">Excelente</option>
+        <option value="2">Bueno</option>
+        <option value="3">Regular</option>
+        <option value="4">Pésimo</option>
+      
+      </select>
+  </div>
+	<div>
+	<h4>Segunda solución</h4>
+		<table>
+			<th>
+				<tr>
+					<td> </td>
+					<td>Excelente</td>
+					<td>Bueno</td>
+					<td>Regular</td>
+					<td>Pésimo</td>
+				</tr>
+			</th>
+			<tr>
+				<td>Interior</td>
+					<td> <label for="Interior"></label><input type="radio" name="interior" value="excelente"></td>
+					<td> <label for="Interior"></label><input type="radio" name="interior" value="bueno"></td>
+					<td> <label for="Interior"></label><input type="radio" name="interior" value="regular"></td>
+					<td> <label for="Interior"></label><input type="radio" name="interior" value="pesimo"></td>
+			
+			
+			</tr>
+				<tr>
+				<td>Comodidad</td>
+					<td> <label for="Comodidad"></label><input type="radio" name="Comodidad" value="excelente"></td>
+					<td> <label for="Comodidad"></label><input type="radio" name="Comodidad" value="bueno"></td>
+					<td> <label for="Comodidad"></label><input type="radio" name="Comodidad" value="regular"></td>
+					<td> <label for="Comodidad"></label><input type="radio" name="Comodidad" value="pesimo"></td>
+			
+			
+			</tr>
+				<tr>
+				<td>Comportamiento en carretera</td>
+					<td> <label for="Comportamiento"></label><input type="radio" name="Comportamiento" value="excelente"></td>
+					<td> <label for="Comportamiento"></label><input type="radio" name="Comportamiento" value="bueno"></td>
+					<td> <label for="Comportamiento"></label><input type="radio" name="Comportamiento" value="regular"></td>
+					<td> <label for="Comportamiento"></label><input type="radio" name="Comportamiento" value="pesimo"></td>
+			
+			
+			</tr>
+			
+			
+		</table>
+		
+	</div>
+  
+  <br>
+  <input type="submit" value="Enviar"> 
+</form>
+
+		<h5>Relizado por: <i>Daniel González Guijarro</i></h5>
+
+
+
+</html>
